@@ -99,7 +99,7 @@ else
 		// Add your implementation here
 				if(student!=null)
 
-						s.add(s.size()-1,student);
+						s.add(s.size(),student);
 				else
 							throw new IllegalArgumentException();
 
